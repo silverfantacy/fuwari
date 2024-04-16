@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'L4s 儲藏室',
-  subtitle: '紀錄一些腦袋裝不下的東西～',
+  title: 'ZeroOne',
+  subtitle: 'From zero to infinite possibilities.',
   lang: 'zh_tw',
   themeHue: 250,
   banner: {
@@ -33,7 +33,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',
   name: 'Zero',
-  bio: '紀錄一些腦袋裝不下的東西～',
+  bio: '🍪 要來片餅乾嗎 🍪',
   links: [
     // {
     //   name: 'Twitter',
