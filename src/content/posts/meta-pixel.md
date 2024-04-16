@@ -2,7 +2,7 @@
 title: Pixel 使用 GTM 追蹤電子商務網站使用者行為
 published: 2024-04-12
 description: 如何在 Google Tag Manager 中埋設追蹤碼 Pixel，以追蹤使用者的行為，並提供相應的程式碼範例和步驟。通過這些追蹤和分析，電子商務業務可以更好地了解使用者需求和行為，提供更好的購物體驗，並增加銷售機會。
-image: ''
+image: 'https://media.virtualxnews.com/2024/04/fd8f06fa24dbcac3151d12b15eb25414.jpg'
 tags: [電子商務, Pixel, Google Tag Manager]
 category: 網站追蹤
 draft: false 
