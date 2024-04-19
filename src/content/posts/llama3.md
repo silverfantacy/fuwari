@@ -10,7 +10,7 @@ draft: false
 
 # Llama 3: 超強的語言模型
 
-最新的 [Llama 3](https://llama.meta.com/llama3/) 語言模型現在已經可以使用 Ollama 運行了。
+最新的 [Llama 3](https://llama.meta.com/llama3/) 語言模型現在已經可以使用 [Ollama](https://ollama.com/blog/llama3)  運行了。
 
 只需要下載 Ollama 並運行以下指令：
 
