@@ -84,7 +84,7 @@ SocialiteProviders\Manager\ServiceProvider::class,
 
 在進行 LINE 登入整合之前，我們需要在 `.env` 檔案中加入 LINE 相關的設定資料。請在 `.env` 檔案中加入以下程式碼：
 
-```dotenv
+```plaintext
 LINE_CLIENT_ID=YOUR_LINE_CLIENT_ID
 LINE_CLIENT_SECRET=YOUR_LINE_CLIENT_SECRET
 LINE_REDIRECT_URI=https://your-domain.com/auth/line/callback
