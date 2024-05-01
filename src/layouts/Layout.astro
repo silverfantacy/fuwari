@@ -49,7 +49,7 @@ const myFade = {
 
 // defines global css variables
 // why doing this in Layout instead of GlobalStyles: https://github.com/withastro/astro/issues/6728#issuecomment-1502203757
-const configHue = siteConfig.themeHue
+const configHue = siteConfig.themeColor.hue;
 if (!banner || typeof banner !== 'string' || banner.trim() === '') {
   banner = siteConfig.banner.src
 }
@@ -66,12 +66,14 @@ if (title) {
   pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`
 }
 
-const favicons: Favicon[] =
-  siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons
+const favicons: Favicon[] = siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons
+
+const siteLang = siteConfig.lang.replace('_', '-')
+
 ---
 
 <!DOCTYPE html>
-<html lang="zh-TW" isHome={isHomePage} pathname={testPathName} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]">
+<html lang={siteLang} isHome={isHomePage} pathname={testPathName} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]">
 	<head>
 
 		<title>{pageTitle}</title>
