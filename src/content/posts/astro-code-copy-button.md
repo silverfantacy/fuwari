@@ -12,6 +12,7 @@ draft: false
 
 ## 環境
 - [Fuwari 主題](https://github.com/saicaca/fuwari)
+  ::github{repo="saicaca/fuwari"}
 - Tailwind CSS
 
 ## 方法
