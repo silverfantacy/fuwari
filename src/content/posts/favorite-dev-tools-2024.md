@@ -16,8 +16,6 @@ draft: false
    - 知名老牌雲端服務供應商，提供相對不錯的免費方案。
    - **個人心得：** 免費伺服器規格不錯，但設定上比 Linode、GPC 複雜，有一些需要注意的地方。
 
----
-
 * [**Zeabur:**](https://zeabur.com?referralCode=silverfantacy)
    - 近期熱門的 Serverless 平台，讓開發者輕鬆部署和管理 Web 應用程式，無需擔心基礎設施。
    - **個人心得：** 方便快速，適合小型專案或原型開發，客服人員還會協助部署，服務非常 nice！歡迎使用我的[邀請碼](https://zeabur.com?referralCode=silverfantacy)。
@@ -47,6 +45,10 @@ draft: false
    - **個人心得：** 擴充豐富，高度客製化，是目前最常用的編輯器。
    - [如何在 Mac 上右鍵使用 VS Code 開啟資料夾](https://medium.com/susan-blog/在mac上右鍵使用vscode開啟文件夾設置-a6c8f77db5d3)
    - Github Copilot 真的很方便，比較簡易的架構可以很快速的自動補全。但是免不了會有一些奇怪的建議，不過還是很推薦使用，年費 100美金。
+
+* [**Cursor**](https://www.cursor.com/)
+   - 一款基於 AI 的程式碼編輯器，整合了 GPT-4 的功能，提供智能代碼補全、重構和解釋等功能。
+   - **個人心得：** 近期很紅的編輯器，我還在測試使用中，年費 192 美金。功能看起來很強大，看介紹比 GitHub Copilot 更好用。需要更多時間來評估其實際效果。但我 Copilot 都付年費了...
 
 ---
 
@@ -83,6 +85,10 @@ draft: false
 * [**DevToys:**](https://devtoys.app/)
    - 一個集成了多種開發常用工具的應用程式，包括 JSON 格式化、編碼轉換、圖片壓縮、正則表達式測試等。
    - **個人心得：** 許多實用的小工具，能節省不少時間。
+
+* [**Proxyman:**](https://proxyman.io/)
+   - 一款功能強大的網路偵錯工具，專為 macOS 設計，可用於監控、分析和修改 HTTP/HTTPS 流量。
+   - **個人心得：** 對於網路應用程式開發和調試非常有用，特別是在處理 API 請求和響應時。介面直觀，功能豐富，但免費版功能有限。
 
 ---
 
