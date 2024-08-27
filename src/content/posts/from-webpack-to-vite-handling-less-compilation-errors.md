@@ -4,7 +4,7 @@ published: 2024-08-21
 description: '在使用 Vite 進行專案升級過程中，從 Webpack 遷移到 Vite 時，可能會遇到 Less 編譯錯誤的問題'
 image: ''
 tags: [Vite, Webpack, Less]
-category: '前端開發'
+category: '前端'
 draft: false 
 ---
 在 Vue 專案升級過程中，從 Vue2+Webpack 遷移到 Vue3+Vite 時，可能會遇到 Less 編譯錯誤的問題。
