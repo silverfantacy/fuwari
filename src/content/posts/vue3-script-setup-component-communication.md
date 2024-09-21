@@ -1,7 +1,7 @@
 ---
-title: Vue 3 <script setup>：defineExpose 父子元件之間的溝通
+title: Vue 3 script setup：defineExpose 父子元件之間的溝通
 published: 2024-07-05
-description: 'Vue 3 <script setup> 模式下，父子元件如何透過 defineExpose、provide 和 inject 進行資料傳遞與方法呼叫。'
+description: 'Vue 3 script setup 模式下，父子元件如何透過 defineExpose、provide 和 inject 進行資料傳遞與方法呼叫。'
 image: 'https://media.virtualxnews.com/2024/05/f995ac3d9d57f1509658d54a5b48529c.png'
 tags: [Vue 3, script setup, defineExpose, provide, inject, 父子元件, 元件溝通]
 category: '前端'
