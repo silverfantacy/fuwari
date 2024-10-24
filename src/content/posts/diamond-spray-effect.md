@@ -49,7 +49,7 @@ body {
   height: 60px;
   position: absolute;
   will-change: transform, opacity;
-  background-image: url('https://coins-game.zeabur.app/images/%E6%8E%89%E8%90%BD%E7%89%A9/%E9%91%BD%E7%9F%B3/Animation_Diamandp_@4x.png');
+  background-image: url('https://imager.virtualxnews.com/rest/7kPTCjK.png');
   background-size: cover;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
@@ -182,6 +182,15 @@ document.addEventListener("click", (event) => {
   }
 });
 ```
+
+### Demo
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="bGXrmmr" data-pen-title="鑽石噴灑效果" data-preview="true" data-user="Serment" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Serment/pen/bGXrmmr">
+  鑽石噴灑效果</a> by Zero (<a href="https://codepen.io/Serment">@Serment</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### 效能優化
 
