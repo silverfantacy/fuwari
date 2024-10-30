@@ -25,6 +25,12 @@ export async function GET(context: APIContext) {
         }),
       }
     }),
-    customData: `<language>${siteConfig.lang}</language>`,
+    customData: `
+      <language>${siteConfig.lang}</language>
+      <follow_challenge>
+        <feedId>72297563266372608</feedId>
+        <userId>42376216726856704</userId>
+      </follow_challenge>
+    `,
   })
 }
