@@ -1,9 +1,9 @@
 ---
 title: GitLab CI/CD 進階配置：環境變數與平行部署
-published: 2024-03-20
+published: 2024-11-14
 description: '完整解析如何設定 GitLab CI/CD 的環境變數、共用腳本與平行部署，並提供實用的部署策略和範例。'
 image: ''
-tags: [GitLab, CI/CD, DevOps, 自動化部署]
+tags: [GitLab, "CI/CD", DevOps, 自動化部署]
 category: '後端'
 draft: false 
 ---
