@@ -1,16 +1,34 @@
 ---
-title: 使用 Coolify 部署 Dify v1.0.1 紀錄
+title: 使用 Coolify 部署 Dify v1.1.1 紀錄
 published: 2025-03-14
-description: '記錄如何使用 Coolify 快速部署 Dify v1.0.1，包含常見問題處理與最佳設定，輕鬆架設自己的 AI 應用開發平台。'
+description: '記錄如何使用 Coolify 快速部署 Dify v1.1.1，包含常見問題處理與最佳設定，輕鬆架設自己的 AI 應用開發平台。'
 image: 'https://imager.virtualxnews.com/rest/f6VKeoK.png'
 tags: ['Dify', 'Coolify', '自架伺服器', 'AI 平台']
 category: 'AI'
 draft: false 
 ---
 
-# 使用 Coolify 部署 Dify v1.0.1 紀錄
+# 使用 Coolify 部署 Dify v1.1.1 紀錄
 
-最近 [Dify](https://dify.ai) 正式發布正式 v1.0.1 版本，作為一個開源的 LLMOps 平台，它提供了從 AI 應用搭建到部署的完整解決方案。而 [Coolify](https://coolify.io) 作為一個自託管的 Heroku/Netlify/Vercel 替代品，提供了簡單但強大的部署方式。
+> **緊急更新 (2025/03/21)**：發現安裝 plugin 後重啟服務時，會發生 Redis 無法啟動的錯誤。如果遇到這個問題，需要修改 docker-compose 檔案中的以下設定：
+> 
+> 將原本的：
+> ```yaml
+> plugin_daemon:
+>   volumes:
+>     - 'dify-storage:/app/storage'
+> ```
+> 
+> 改為：
+> ```yaml
+> plugin_daemon:
+>   volumes:
+>     - 'dify-storage-plugin:/app/storage'
+> ```
+> 
+> 這樣應該可以解決服務無法正常啟動的問題。
+
+最近 [Dify](https://dify.ai) 正式發布正式 v1.1.1 版本，作為一個開源的 LLMOps 平台，它提供了從 AI 應用搭建到部署的完整解決方案。而 [Coolify](https://coolify.io) 作為一個自託管的 Heroku/Netlify/Vercel 替代品，提供了簡單但強大的部署方式。
 
 ## 特別建議：原本使用 Dify v0.15.3 進行全新安裝
 
