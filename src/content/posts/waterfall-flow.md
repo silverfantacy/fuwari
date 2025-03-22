@@ -3,7 +3,7 @@ title: 瀑布流排版
 published: 2024-04-09
 description: '使用 Masonry 套件實現瀑布流排版'
 image: 'https://media.virtualxnews.com/2024/04/8c3d88dda5a3ddd7caf61751fa08b3aa.png'
-tags: ['Masonry', '瀑布流排版']
+tags: [Masonry, 瀑布流排版, 前端開發, 版面配置]
 category: '前端'
 draft: false 
 ---

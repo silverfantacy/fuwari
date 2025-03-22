@@ -216,4 +216,4 @@ deploy-production:
 
 - [GitLab CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
 - [GitLab CI/CD Parallel Jobs](https://docs.gitlab.com/ee/ci/yaml/#parallel)
-- [GitLab CI/CD Best Practices](https://docs.gitlab.com/ee/ci/yaml/README.html#anchors) 
+- [GitLab CI/CD Best Practices](https://docs.gitlab.com/ee/ci/yaml/README.html#anchors)

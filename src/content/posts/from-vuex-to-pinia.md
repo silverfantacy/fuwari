@@ -3,7 +3,7 @@ title: 告別 Vuex，擁抱 Pinia：Vue 狀態管理無痛轉型攻略
 published: 2024-08-28
 description: '還在用 Vuex 管理狀態嗎？是時候轉換到更現代、更簡潔的 Pinia 了！Vuex 無痛轉移到 Pinia，比較兩者的差異、提供詳細的遷移步驟與注意事項，讓你享受 Pinia 帶來的開發體驗提升。'
 image: ''
-tags: [Pinia, Vuex, Vue2, Vue3]
+tags: [Pinia, Vuex, Vue 2, Vue 3, 狀態管理, 前端開發]
 category: '前端'
 draft: false 
 ---

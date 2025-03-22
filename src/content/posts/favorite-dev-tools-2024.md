@@ -3,7 +3,7 @@ title: 常用的開發工具-2024
 published: 2024-07-20
 description: '整理了我在2024年常用的開發工具，涵蓋了從伺服器到快速工具等多個方面。這些工具大大提升了我的開發效率，希望對你也有所幫助。'
 image: 'https://media.virtualxnews.com/2024/07/55fbe64f44a9c2a3f07ed93afe188dec.png'
-tags: [開發工具, Arc, Docker, Git, OrbStack, Postman, Raycast, TablePlus, Termius, Visual Studio Code, Warp, Zeabur]
+tags: [開發工具, 效率工具, 開發環境]
 category: '個人專案'
 draft: false 
 ---

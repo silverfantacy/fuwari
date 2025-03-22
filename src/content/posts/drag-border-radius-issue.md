@@ -3,7 +3,7 @@ title: 解決 HTML 拖曳時圓角消失的問題
 published: 2024-11-10
 description: '如何解決在 Chrome 瀏覽器中拖曳圓角元素時，預覽圖示變成方形的問題。'
 image: ''
-tags: [Draggable, HTML, CSS, Chrome, 網頁開發]
+tags: [拖曳功能, HTML, CSS, Chrome, 前端開發]
 category: '前端'
 draft: false 
 ---

@@ -3,7 +3,7 @@ title: 峰值體驗筆記：電商首頁優化
 published: 2024-09-04
 description: '電商首頁優化的底層邏輯，剖析常見誤區，並紀錄從訊息設計、轉化落地到廣告優化的概念。'
 image: 'https://media.virtualxnews.com/2024/08/ea83a4c0618f8b902374e3494e785f98.jpg'
-tags: [峰值體驗, 電商, 轉化率]
+tags: [峰值體驗, 電子商務, 轉化率, 使用者體驗]
 category: '行銷'
 draft: false 
 ---
