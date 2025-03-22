@@ -3,7 +3,7 @@ title: Vue2 升級到 Vue3 - 語法差異與套件更新
 published: 2024-05-05
 description: '紀錄專案從 Vue2 升級到 Vue3 時，語法差異和套件更新所遇到的狀況'
 image: 'https://media.virtualxnews.com/2024/05/f995ac3d9d57f1509658d54a5b48529c.png'
-tags: [Vue2, Vue3]
+tags: [Vue 2, Vue 3]
 category: '前端'
 draft: false 
 ---
