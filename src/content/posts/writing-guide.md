@@ -113,6 +113,8 @@ draft: true
 - Google Cloud Summit, Gamania, 推薦系統, 資訊檢索, BigQuery, Vertex AI
 - Fuwari, 部落格, 自訂化, 範例
 
+> **注意**：如果之後有寫新文章，新增了新的標籤或分類，請務必更新此文件以保持一致性。
+
 ## 參考文件
 
 - [Markdown Example](/src/content/posts/markdown.md)

@@ -3,7 +3,7 @@ title: Dify 環境設定與部署
 published: 2025-02-19
 description: '介紹 Dify 重要環境設定與部署方式，包含知識庫設定、系統限制調整'
 image: 'https://imager.virtualxnews.com/rest/f6VKeoK.png'
-tags: [Dify, AI, No-code]
+tags: [Dify, AI, No-code, Zeabur]
 category: 'AI'
 draft: false 
 ---
