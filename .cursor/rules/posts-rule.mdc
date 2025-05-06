@@ -7,6 +7,7 @@ alwaysApply: false
 
 ## 文章位置
 @content 文章檔案位置在 `/src/content/posts/` 目錄中。
+@content md 語法範例在 `/src/content/posts/markdown.md`、`/src/content/posts/markdown-extended.md`
 
 ## 文章格式說明
 在此目錄中的 Markdown 文件將被視為部落格文章，可通過網站進行訪問與閱讀。
