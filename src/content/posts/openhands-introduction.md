@@ -309,9 +309,4 @@ OpenHands 代表了 AI 輔助程式開發的未來。它不只是一個工具，
 
 ---
 
-**相關文章推薦：**
-- [AI 程式開發工具比較分析](./ai-coding-tools-comparison.md)
-- [提升開發效率的 10 個 AI 工具](./ai-productivity-tools.md)
-- [未來程式開發的發展趨勢](./future-of-programming.md)
-
-**標籤：** #OpenHands #AI #程式開發助手 #自動化開發 #開發工具
+本文章由 OpenHands 協助撰寫。
