@@ -5,5 +5,5 @@ exclude_selectors:
   - ".search-panel"
   - "#search-panel"
 
-# 設定 Pagefind 語言為通用中文，避免 zh-tw 不支援詞幹化的警告
-force_language: "zh"
+# 讓 Pagefind 根據 HTML lang 屬性自動偵測語言
+# 這樣會根據你的 zh_TW 設定自動處理，雖然仍會有警告但功能正常
