@@ -18,7 +18,7 @@ draft: false
 
 分段長度對於知識庫的處理效能有重大影響，建議調整：
 
-```env
+```bash
 INDEXING_MAX_SEGMENTATION_TOKENS_LENGTH = 4000
 ```
 
@@ -27,7 +27,7 @@ INDEXING_MAX_SEGMENTATION_TOKENS_LENGTH = 4000
 ## 系統限制設定
 
 ### 檔案處理限制
-```env
+```bash
 # Dify 環境變數
 UPLOAD_FILE_SIZE_LIMIT=50M    # 單檔上傳限制，預設 15M
 UPLOAD_FILE_BATCH_LIMIT=10    # 批次上傳數量，預設 5
