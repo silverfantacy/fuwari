@@ -19,6 +19,17 @@ const postsCollection = defineCollection({
 		nextSlug: z.string().default(""),
 	}),
 });
+
+const specCollection = defineCollection({
+	type: 'content', // 用於靜態頁面內容
+	schema: z.object({
+		title: z.string().optional(),
+		description: z.string().optional(),
+		lang: z.string().optional(),
+	}).optional(),
+});
+
 export const collections = {
 	posts: postsCollection,
+	spec: specCollection,
 };
