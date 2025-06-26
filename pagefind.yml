@@ -4,3 +4,6 @@ exclude_selectors:
   - "[data-pagefind-ignore]"
   - ".search-panel"
   - "#search-panel"
+
+# 設定 Pagefind 語言為通用中文，避免 zh-tw 不支援詞幹化的警告
+force_language: "zh"
