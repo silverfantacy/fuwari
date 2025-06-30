@@ -72,6 +72,44 @@ Gemini CLI 內建了多種強大的工具，讓它可以和你的系統環境互
 | `save_memory` | 記住使用者提供的資訊 |
 | `google_web_search` | 執行 Google 網路搜尋 |
 
+## 安裝與設定
+
+在開始體驗 Gemini CLI 的強大功能之前，我們需要先把它安裝到你的電腦上。
+
+### 🚀 快速體驗 vs 正式安裝
+
+**臨時使用（npx 方式）**
+
+如果你只是想快速試用一下，可以用 npx 指令：
+
+```bash
+npx https://github.com/google-gemini/gemini-cli
+```
+
+這種方式會即時下載並執行 Gemini CLI，不會在你的系統上留下任何檔案。適合偶爾使用或者想先試試看的情況。
+
+**正式安裝（推薦）**
+
+但如果你打算經常使用 Gemini CLI，建議你正式安裝到系統裡：
+
+```bash
+npm install -g @google/gemini-cli
+```
+
+安裝完成後，你就可以在任何地方直接輸入 `gemini` 來啟動：
+
+```bash
+gemini
+```
+
+:::tip[安裝前檢查]
+確保你的 Node.js 版本是 18 以上（執行 `node -v` 確認），這樣可以避免相容性問題。
+:::
+
+### 🔐 首次登入
+
+第一次執行 Gemini CLI 時，它會要求你登入 Google 帳號並授權存取。這個步驟只需要做一次，之後就能直接使用了。
+
 ## 如何使用 Gemini CLI
 
 使用 Gemini CLI 非常直觀，就像在跟一個真人工程師對話一樣。
