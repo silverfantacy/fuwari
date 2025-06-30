@@ -2,7 +2,7 @@
 title: "Warp 2.0 更新了什麼？AI 終端機的實用進化"
 published: 2025-06-26
 description: "Warp 2.0 帶來了一系列實用的 AI 新功能，直接改變你的日常工作流程。本文將詳細介紹 Warp Drive、強化的 AI 指令生成與除錯等具體更新，讓你了解這個次世代終端機如何幫你變得更有效率。"
-image: "https://www.warp.dev/static/image/r/w=1920,q=90,format=auto/Blog_Graphic_2_0_d04fe1145e.png"
+image: "https://www.warp.dev/static/image/r/w=1920,q=90,format=auto/Blog_Graphic_2_0_780b36cca8.png"
 tags: ['Warp', 'Terminal', 'AI', '開發工具', 'CLI', 'Rust', 'Warp 2.0']
 category: '開發工具'
 draft: false
