@@ -285,11 +285,16 @@ function handleIframeLoad() {
 
 // 方法三：使用 Promise 包裝
 function waitForIframeLoad(iframe) {
-    return new Promise((resolve) => {
-        if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+    return new Promise(resolve => {
+        const loadHandler = () => {
+            iframe.onload = null; // 清理 handler 避免重複觸發或內存洩漏
             resolve();
-        } else {
-            iframe.onload = () => resolve();
+        };
+        // 先指派 handler，再檢查狀態，以避免 race condition
+        iframe.onload = loadHandler;
+        // 如果 iframe 已載入，則 onload 事件可能不會再觸發，手動調用 handler
+        if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+            loadHandler();
         }
     });
 }
