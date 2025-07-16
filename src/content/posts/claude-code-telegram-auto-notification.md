@@ -65,7 +65,7 @@ claude mcp add telegram-notify https://your-worker-name.workers.dev/sse -t sse
 
 設定是這樣的，可以參考：
 
-```markdown
+`````markdown
 # Telegram 通知
 
 使用 `mcp__telegram-notify__send_telegram_message` 工具向 Telegram 發送通知。
@@ -161,7 +161,7 @@ claude mcp add telegram-notify https://your-worker-name.workers.dev/sse -t sse
 - 只在工作時間發送非緊急通知
 - 根據錯誤嚴重程度調整通知頻率
 - 支援靜音模式設定
-```
+`````
 
 ## 實際使用感受
 
@@ -179,7 +179,6 @@ claude mcp add telegram-notify https://your-worker-name.workers.dev/sse -t sse
 ❌ 測試失敗：auth.test.ts
 🔍 3/52 個測試失敗
 📍 主要錯誤：JWT 驗證失敗
-```
 ```
 
 這樣一來，你就可以安心的去吃飯、喝咖啡、或是處理其他事情，不用再一直盯著終端機了！
